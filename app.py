@@ -80,6 +80,7 @@ def preprocessing(text):
     if(len(words) < min_words):
         raise Exception('File Encoding not supported')
     result_text = " ".join(words)
+    print(result_text)
     return result_text
 
 def pipeline(file):
