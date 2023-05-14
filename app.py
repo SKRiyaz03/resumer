@@ -119,7 +119,7 @@ def app():
 
         with col2:
         # Display the profile name and description  
-            st.write("# TechTitans")
+            st.write("# Tech Titans")
             st.write("Software Engineer with 5 years of experience in web development and data analysis.")
         # Email input
         email = st.text_input("Email Address*")
