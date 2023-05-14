@@ -81,6 +81,7 @@ def preprocessing(text):
         raise Exception('File Encoding not supported')
     result_text = " ".join(words)
     print(result_text)
+    print()
     return result_text
 
 def pipeline(file):
