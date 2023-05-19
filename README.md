@@ -5,7 +5,7 @@ Tech Titans Hackathon Project
 Project Title: Resumer
 
 # Project Website: 
-[https://minnikeswar-resumer-app-rbjb74.streamlit.app/](https://skriyaz03-resumer-app-11mq4e.streamlit.app/)
+(https://skriyaz03-resumer-app-11mq4e.streamlit.app/)
 
 # WireFrame(Figma): 
 (https://www.figma.com/file/NHh81Vkre0VE8LWD36txRu/Untitled?type=design&node-id=0%3A1&t=h3wUnKTioELSe2g3-1)
