@@ -122,11 +122,11 @@ def app():
             st.write("# Tech Titans")
             st.write("Software Engineer with 5 years of experience in web development and data analysis.")
         # Email input
-        email = st.text_input("Email Address*")
+        # email = st.text_input("Email Address*")
 
         # Country code input
-        country_code = st.selectbox("Country Code*", ["+1", "+44", "+61", "+81", "+91"])
-        mobile_number = st.text_input("Mobile Number*")
+        # country_code = st.selectbox("Country Code*", ["+1", "+44", "+61", "+81", "+91"])
+        # mobile_number = st.text_input("Mobile Number*")
 
         # Resume title
         st.markdown("<h3>My Resume</h3>", unsafe_allow_html=True)
@@ -226,7 +226,7 @@ def result(data):
                 'color: white; padding: 10px 24px; border: none; border-radius: 5px; cursor: pointer;">Go back</button></p>'
                 , unsafe_allow_html=True)
 
-
+# streamlit run streamlit_app.py --server.port 5000
 if __name__ == "__main__":
     nltk.download('stopwords')
     nltk.download('punkt')
