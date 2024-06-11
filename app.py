@@ -109,18 +109,18 @@ def app():
         # Display the image with a circular border
         st.image(image_array, width=300, clamp=True, channels="RGB")
     with st.container():
-        st.header("Apply to Aspire infoLabs")
-        st.markdown("<h3>Contact info</h3>", unsafe_allow_html=True)
-        col1, col2 = st.columns([2, 3])
-        profile_picture_path = "asserts/profile_picture.jpg"
-        with col1:
-        # Display the circular profile picture
-            st.image(profile_picture_path, width=200, clamp=True, channels="RGB")
+        st.header("Welcome to Resumer")
+        # st.markdown("<h3>Contact info</h3>", unsafe_allow_html=True)
+        # col1, col2 = st.columns([2, 3])
+        # profile_picture_path = "asserts/profile_picture.jpg"
+        # with col1:
+        # # Display the circular profile picture
+        #     st.image(profile_picture_path, width=200, clamp=True, channels="RGB")
 
-        with col2:
-        # Display the profile name and description  
-            st.write("# Tech Titans")
-            st.write("Software Engineer with 5 years of experience in web development and data analysis.")
+        # with col2:
+        # # Display the profile name and description  
+        #     st.write("# Tech Titans")
+        #     st.write("Software Engineer with 5 years of experience in web development and data analysis.")
         # Email input
         # email = st.text_input("Email Address*")
 
@@ -129,7 +129,7 @@ def app():
         # mobile_number = st.text_input("Mobile Number*")
 
         # Resume title
-        st.markdown("<h3>My Resume</h3>", unsafe_allow_html=True)
+        # st.markdown("<h3>My Resume</h3>", unsafe_allow_html=True)
 
         # Resume content
         st.write('Be sure to include and updated resume')
